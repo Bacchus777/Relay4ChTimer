@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspace>
+    <project>
+        <path>$WS_DIR$\Relay4ChTimer.ewp</path>
+    </project>
+    <batchBuild>
+        <batchDefinition>
+            <name>ALL</name>
+            <member>
+                <project>Relay4ChTimer</project>
+                <configuration>Relay4ChTimer_EndDevice</configuration>
+            </member>
+            <member>
+                <project>Relay4ChTimer</project>
+                <configuration>Relay4ChTimer_Router</configuration>
+            </member>
+            <member>
+                <project>Relay4ChTimer</project>
+                <configuration>Relay4ChTimer_Router_CC2592</configuration>
+            </member>
+            <member>
+                <project>Relay4ChTimer</project>
+                <configuration>Relay4ChTimer_EndDevice_CC2592</configuration>
+            </member>
+            <member>
+                <project>Relay4ChTimer</project>
+                <configuration>Relay4ChTimer_EndDevice_CC2591</configuration>
+            </member>
+            <member>
+                <project>Relay4ChTimer</project>
+                <configuration>Relay4ChTimer_Router_CC2591</configuration>
+            </member>
+        </batchDefinition>
+    </batchBuild>
+</workspace>
